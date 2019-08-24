@@ -1,0 +1,10 @@
+version: "3"
+services:
+  whistle:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - "$HOME/Downloads:/downloads"
+      - "./data:/root/.WhistleAppData"
+    ports:
+      - "8899:8899"
