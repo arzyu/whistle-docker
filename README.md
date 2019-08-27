@@ -1,4 +1,4 @@
-# whistle-docker
+# Running [whistle](https://github.com/avwo/whistle) in docker container
 
 ## Requirements
 
