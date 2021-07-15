@@ -1,8 +1,8 @@
-FROM node:alpine
+FROM node:lts-alpine
 
 WORKDIR /downloads
 
-RUN npm install -g whistle 2>&1
+RUN npm install -g whistle
 
 ARG port=8899
 
